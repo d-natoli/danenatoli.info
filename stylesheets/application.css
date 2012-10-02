@@ -11,6 +11,9 @@ h1 {
   font-family: Palatino Linotype, Book Antiqua3, Palatino, serif;
   margin: 0 0 0 -5px;
   line-height: 30px;
+  color:#2B547D;
+  border-bottom:2px solid #2B547D;
+  padding-bottom: 10px;
 }
 
 div {
@@ -30,8 +33,9 @@ a:hover{
 }
 
 img {
-  width:345px;
+  width:375px;
   float:left;
   border:1px solid #000;
   margin-right:40px;
+  margin-top:40px;
 }
