@@ -1,0 +1,147 @@
+html,
+body {
+  padding:0;
+  margin:0;
+  font:14px 'Titillium Web', sans-serif;
+}
+
+body {
+  background-color:#2e271f;
+  padding:20px;
+}
+
+div.head {
+  margin:0 auto;
+  font-family: 'Enriqueta', serif;
+  height:200px;
+  width:726px;
+}
+
+div.heading {
+  float:left;
+  margin-right:80px;
+}
+
+div.head img {
+  height: 200px;
+}
+
+div.content {
+  margin:20px auto;
+  clear:both;
+  width:726px;
+}
+
+div.content div {
+  width:350px;
+  float:left;
+}
+
+div.content div.right {
+  margin-left:26px;
+}
+
+p.contact-details {
+  float: left;
+  margin-right:50px;
+}
+
+p.contact-details span.country {
+  text-transform:uppercase;
+  font-size:10px;
+}
+
+h1 {
+  color:#b94b16;
+  margin:0;
+  font-size:50px;
+  text-transform:uppercase;
+}
+
+h2 {
+  color:#f3ae46;
+  font-size:30px;
+  margin:0;
+  text-transform:uppercase;
+}
+
+h3 {
+  color:#f3bb4c;
+  margin:0;
+  border-bottom: 1px solid #f3bb4c;
+  text-transform:uppercase;
+  font-size:20px;
+  font-weight:100;
+}
+
+p {
+  color:#f4e8ae;
+}
+
+ul {
+  color:#FFF;
+  padding-left:20px;
+  
+}
+
+div.skills span.skill {
+  display:inline-block;
+  width:120px;
+}
+
+div.skills span.dot {
+  display:inline-block;
+  height:18px;
+  vertical-align:bottom;
+}
+
+div.skills span.blue-dot {
+  background: url('../images/blue-dot.png') repeat-x;
+}
+
+div.skills span.green-dot {
+  background: url('../images/green-dot.png') repeat-x;
+}
+
+div.skills span.magenta-dot {
+  background: url('../images/magenta-dot.png') repeat-x;
+}
+
+div.skills span.orange-dot {
+  background: url('../images/orange-dot.png') repeat-x;
+}
+
+div.skills span.red-dot {
+  background: url('../images/red-dot.png') repeat-x;
+}
+
+div.skills span.yellow-dot {
+  background: url('../images/yellow-dot.png') repeat-x;
+}
+
+div.skills span.dot-4 {
+  width:72px;
+}
+
+div.skills span.dot-5 {
+  width:90px;
+}
+
+div.skills span.dot-6 {
+  width:108px;
+}
+
+div.skills span.dot-7 {
+  width:126px;
+}
+
+div.employment span,
+div.references span {
+  font-weight:bold;
+  display:block;
+}
+
+span.reverse {
+  direction:rtl;
+  unicode-bidi:bidi-override;
+}
