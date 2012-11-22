@@ -26,6 +26,15 @@ div.head img {
   height: 200px;
 }
 
+div.heading a {
+  color:#f4e8ae;
+  text-decoration:none;
+}
+
+div.heading a:hover {
+  text-decoration:underline;
+}
+
 div.content {
   margin:20px auto;
   clear:both;
@@ -136,7 +145,7 @@ div.references span {
   display:block;
 }
 
-span.reverse {
+a.reverse {
   direction:rtl;
   unicode-bidi:bidi-override;
 }
