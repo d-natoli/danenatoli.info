@@ -26,12 +26,12 @@ div.head img {
   height: 200px;
 }
 
-div.heading a {
+a {
   color:#f4e8ae;
   text-decoration:none;
 }
 
-div.heading a:hover {
+a:hover {
   text-decoration:underline;
 }
 
