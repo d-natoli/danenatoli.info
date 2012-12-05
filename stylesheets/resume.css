@@ -139,9 +139,14 @@ div.skills span.dot-7 {
   width:126px;
 }
 
+div.employment p,
+div.references p {
+  color:#FFF;
+}
+
 div.employment span,
 div.references span {
-  font-weight:bold;
+  color:#f4e8ae;
   display:block;
 }
 
