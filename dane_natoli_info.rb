@@ -1,5 +1,6 @@
 require_relative 'config/environment'
 require 'sinatra'
+require_relative 'routes/init'
 
 class DaneNatoliInfoWebsite < Sinatra::Base
   configure do

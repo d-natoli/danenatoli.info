@@ -4,7 +4,7 @@ class DaneNatoliInfoWebsite < Sinatra::Base
     haml :index, :layout => false
   end
 
-  get 'resume' do
+  get '/resume' do
     haml :resume, :layout => false
   end
 
