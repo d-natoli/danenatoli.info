@@ -43,10 +43,12 @@ div.content {
 div.content div {
   width:350px;
   float:left;
+  clear:left;
 }
 
 div.content div.right {
-  margin-left:26px;
+  float:right;
+  clear:right;
 }
 
 p.contact-details {
